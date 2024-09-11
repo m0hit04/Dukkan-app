@@ -25,7 +25,7 @@ export const OrderDetails = () => {
 
     return (
         <div className="container mx-auto p-4">
-        <div className="grid grid-cols-5 gap-4 text-left font-bold text-sm border-b pb-2">
+        <div className="grid grid-cols-5 gap-4 text-left text-md pb-2 font-semibold text-slate-600">
             <div>Order ID</div>
             <div>Status</div>
             <div>Transaction ID</div>

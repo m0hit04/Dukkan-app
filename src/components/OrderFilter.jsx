@@ -1,6 +1,6 @@
 export const OrderFilter = () => {
     return <>
-        <div className="flex justify-between bg-white px-4 py-2">
+        <div className="flex justify-between bg-white px-4 py-4">
             <div>
                 <form className="h-10">   
                         <label htmlFor="default-search" className="mb-2 text-sm font-medium sr-only">Search</label>

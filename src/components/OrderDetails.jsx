@@ -24,13 +24,13 @@ export const OrderDetails = () => {
     ];
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 px-8">
         <div className="grid grid-cols-5 gap-4 text-left text-md pb-2 font-semibold text-slate-600">
-            <div>Order ID</div>
-            <div>Status</div>
-            <div>Transaction ID</div>
-            <div>Refund Date</div>
-            <div>Order Amount</div>
+            <div>ORDER ID</div>
+            <div>STATUS</div>
+            <div>TRANSACTION ID</div>
+            <div>REFUND DATE</div>
+            <div>ORDER AMOUNT</div>
         </div>
         {orders.map((order, index) => (
             <div key={index} className="grid grid-cols-5 gap-4 text-left py-4 border-b text-sm text-slate-600">
